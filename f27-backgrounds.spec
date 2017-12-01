@@ -10,7 +10,7 @@
 %global with_extras 1
 
 Name:           %{bgname}-backgrounds
-Version:        %{relnum}.1
+Version:        %{relnum}.2
 Release:        1%{?dist}
 Summary:        FedBerry %{relnum} default desktop background
 License:        CC-BY-SA
@@ -175,6 +175,9 @@ make %{?_smp_mflags}
 %endif
 
 %changelog
+* Thu Nov 30 2017 Vaughan <devel at agrez dot net> - 27.2-1
+- Fix makefile
+
 * Thu Nov 23 2017 Vaughan <devel at agrez dot net> - 27.1-1
 - Update for 27 release
 - Sync with Fedora 27 backgrounds
